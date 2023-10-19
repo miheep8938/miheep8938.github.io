@@ -41,17 +41,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#testmonial">Testmonial</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
+                        <a class="- btn btn-primary rounded ml-4" href="components.html">Components</a>
                     </li>
                 </ul>
             </div>
@@ -123,39 +123,38 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><hr>
 
     <!-- Service section -->
     <section id="service" class="section">
         <div class="container text-center">
             <h6 class="subtitle">Service</h6>
             <h6 class="section-title mb-4">What I Do</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+            <p class="mb-5 pb-4">Collect, Process, Analyze, and Visualize Data : supporting from daily deicision to wide-reaching change</p>
 
             <div class="row">
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
-                        <a href="javascript:openPop()"><div class="card-body">
-                            <i class="icon ti-crown"></i>
-                            <h5>UI/UX Design</h5>
+                        <a href="#" class="open-pop" onclick="openPop(event, 'popup_layer1_1')"><div class="card-body">
+                            <i class="icon ti-zoom-in"></i>
+                            <h5>Data Management</h5>
                         </div></a>
 
-                        <div class="popup_layer" id="popup_layer" style="display: none;">
+                        <div class="popup_layer" id="popup_layer1_1" style="display: none;">
                             <div class="popup_box">
                                 <div style="height: 10px; width: 375px; float: top;">
-                                <a href="javascript:closePop();"><img src="assets/imgs/close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
+                                <a href="#" class="close-pop" onclick="closePop(event, 'popup_layer1_1')"><img src="assets/imgs/close.svg" class="m_header-banner-close"></a>
                                 </div>
                             
                             <div class="popup_cont">
-                                <h5> POPUP TILTE</h5>
-                                <p>
-                                !!!!!!!!!!!!!!!!!!!!<br>
-                                    ~~~~~~~~~~~~~~~~~
-                                    @@@@@@@@@@@@@@@@@@@
-                                    %%%%%%%%%%%%%%%%
-                                    ^^^^^^^^^^^^^^^^
-                                    &&&&&&&&&&&&&&
-                                    *************       
+                                <h5> Data Management</h5>
+                                <p class = "pop-int">
+                                In a data analysis project, this is the first step that we can collect relevant data and transform them in an adequate form. <br>
+                                <ul style="list-style-type: square;"> </ul>
+                                <li>Collect data from various sources including APIs, SQL databases or whole bunch of Excel files.</li><br>
+                                <li>Reform the format of data and clean the dataset to make further steps efficient.</li><hr>
+                                <p class = "pop-ex">
+                                    I am quick to understand the data accurately and organize the data for the further analysis. 
                                 </p>
                             </div>
                             </div>
@@ -164,86 +163,86 @@
                 </div>
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
-                        <a href="javascript:openPop()"><div class="card-body">
-                            <i class="icon ti-desktop"></i>
-                            <h5>Web Design</h5>
-
-                            <div class="popup_layer" id="popup_layer" style="display: none;">
-                                <div class="popup_box">
-                                    <div style="height: 10px; width: 375px; float: top;">
-                                    <a href="javascript:closePop();"><img src="assets/imgs/close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
-                                    </div>
-                                
-                                <div class="popup_cont">
-                                    <h5> First Popup</h5>
-                                    <p>
-                                    !!!!!!!!!!!!!!!!!!!!<br>
-                                        ~~~~~~~~~~~~~~~~~
-                                        @@@@@@@@@@@@@@@@@@@
-                                        %%%%%%%%%%%%%%%%
-                                        ^^^^^^^^^^^^^^^^
-                                        &&&&&&&&&&&&&&
-                                        *************       
-                                    </p>
-                                </div>
-                                </div>
-                            </div>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <a href="javascript:openPop()"><div class="card-body">
-                            <i class="icon ti-mobile"></i>
-                            <h5>App Design</h5>
+                        <a href="#" class="open-pop" onclick="openPop(event, 'popup_layer1_2')"><div class="card-body">
+                            <i class="icon ti-layout-slider"></i>
+                            <h5>Data Mining</h5>
                         </div></a>
 
-                        <div class="popup_layer" id="popup_layer" style="display: none;">
+                        <div class="popup_layer" id="popup_layer1_2" style="display: none;">
                             <div class="popup_box">
                                 <div style="height: 10px; width: 375px; float: top;">
-                                <a href="javascript:closePop();"><img src="assets/imgs/close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
+                                <a href="#" class="close-pop" onclick="closePop(event, 'popup_layer1_2')"><img src="assets/imgs/close.svg" class="m_header-banner-close"></a>
                                 </div>
                             
                             <div class="popup_cont">
-                                <h5> POPUP TILTE</h5>
-                                <p>
-                                !!!!!!!!!!!!!!!!!!!!<br>
-                                    ~~~~~~~~~~~~~~~~~
-                                    @@@@@@@@@@@@@@@@@@@
-                                    %%%%%%%%%%%%%%%%
-                                    ^^^^^^^^^^^^^^^^
-                                    &&&&&&&&&&&&&&
-                                    *************       
+                                <h5> Data Mining</h5>
+                                <p class = "pop-int">
+                                Admist the flood of information, it is important to extract the essential data. <br>
+                                <ul style="list-style-type: square;"> </ul>
+                                <li>Clean and organize data to be ready for the analysis upon needs.</li><br>
+                                <li>Assess the performance of the model using validation and testing datasets to ensure its generalizability to new, unseen data.</li><br>
+                                <li>Apply statistical techniques on the dataset for supporting actionable insights.</li><hr>
+                                <p class = "pop-ex">
+                                    I have experiences not only in cleaning raw data: remove duplicates, blanks, and irrelevant data, but in validating if the model provides same output. 
                                 </p>
                             </div>
                             </div>
                         </div>
                     </div>
+                        
+                   
                 </div>
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
-                        <a href="javascript:openPop()"><div class="card-body">
+                        <a href="#" class="open-pop" onclick="openPop(event, 'popup_layer1_3')"><div class="card-body">
                             <i class="icon ti-bar-chart"></i>
-                            <h5>SEO</h5>
+                            <h5>Data Visualization</h5>
                         </div></a>
 
-                        <div class="popup_layer" id="popup_layer" style="display: none;">
+                        <div class="popup_layer" id="popup_layer1_3" style="display: none;">
                             <div class="popup_box">
                                 <div style="height: 10px; width: 375px; float: top;">
-                                <a href="javascript:closePop();"><img src="assets/imgs/close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
+                                <a href="#" class="close-pop" onclick="closePop(event, 'popup_layer1_3')"><img src="assets/imgs/close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
                                 </div>
                             
                             <div class="popup_cont">
-                                <h5> POPUP TILTE</h5>
-                                <p>
-                                !!!!!!!!!!!!!!!!!!!!<br>
-                                    ~~~~~~~~~~~~~~~~~
-                                    @@@@@@@@@@@@@@@@@@@
-                                    %%%%%%%%%%%%%%%%
-                                    ^^^^^^^^^^^^^^^^
-                                    &&&&&&&&&&&&&&
-                                    *************       
-                                </p>
+                                <h5> Data Visualization</h5>
+                                <p class = "pop-int">
+                                    Visualization helps understand, interpret, and derive conclusion more effectively. There are chances that you can obtain additional insights. <br>
+                                    <ul style="list-style-type: square;"> </ul>
+                                    <li>Create dashboards and reports to monitor performance and support right decision.  </li><br>
+                                    <li>Track the trends of data and make the outcome more reliable and accountable. </li><hr>
+                                    <p class = "pop-ex">
+                                        I created dashboards and reports based on the clients' needs and offered better way of visualization.  
+                                    </p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <a href="#" class="open-pop" onclick="openPop(event, 'popup_layer1_4')"><div class="card-body">
+                            <i class="icon ti-files"></i>
+                            <h5>Prensentation</h5>
+                        </div></a>
+
+                        <div class="popup_layer" id="popup_layer1_4" style="display: none;">
+                            <div class="popup_box">
+                                <div style="height: 10px; width: 375px; float: top;">
+                                    <a href="#" class="close-pop" onclick="closePop(event, 'popup_layer1_4')"><img src="assets/imgs/close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
+                                </div>
+                            
+                            <div class="popup_cont">
+                                <h5> Presentation</h5>
+                                <p class = "pop-int">
+                                    Summarize the findings, methodology, and insights in a structured document. Share ideas and facts that you found through the anlaytical process. <br>
+                                    <ul style="list-style-type: square;"> </ul>
+                                    <li>Tailor contents for the intended audience, ensuring that the message is concise. </li><br>
+                                    <li>Graphs and tables are effective when communicating the findings and insights.</li><hr>
+                                    <p class = "pop-ex">
+                                        I am experienced in delivering the outcomes internally and externally. Plus, I am able to create training materials by using video editing software like Adobe Premiere Pro and Naver Dubbing. 
+                                    </p>
                             </div>
                             </div>
                         </div>
@@ -251,7 +250,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><hr>
     <!-- End of Sectoin -->
 
     <!-- Skills section -->
@@ -296,9 +295,110 @@
         <div class="container text-center">
             <h6 class="subtitle">Portfolio</h6>
             <h6 class="section-title mb-4">Check My Wonderful Works</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+            <p class="mb-5 pb-4">These are the school, work, and personal projects that I have participated in. </p>
 
             <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project1</h5>
+                                <a href="#" class="open-pop" onclick="openPop(event, 'popup_layer5')">
+                                    <i class="ti-zoom-in"></i></a>
+                                
+                                <div class="popup_layer" id="popup_layer5" style="display: none;">
+                                    <div class="popup_box">
+                                        <div style="height: 10px; width: 375px; float: top;">
+                                        <a href="#" class="close-pop" onclick="closePop(event, 'popup_layer5')"><img src="assets/imgs/close.svg" class="m_header-banner-close"></a>
+                                        </div>
+
+                                   
+
+                                    <div class="popup_cont">
+                                        <h5> Data Mining</h5>
+                                        <p class = "pop-int">
+                                            Admist the flood of information, it is important to extract the essential data. <br>
+                                        <ul style="list-style-type: square;"> </ul>
+                                        <li>Clean and organize data to be ready for the analysis upon needs.</li><br>
+                                        <li>Assess the performance of the model using validation and testing datasets to ensure its generalizability to new, unseen data.</li><br>
+                                        <li>Apply statistical techniques on the dataset for supporting actionable insights.</li><hr>
+                                        <p class = "pop-ex">
+                                                I have experiences not only in cleaning raw data: remove duplicates, blanks, and irrelevant data, but in validating if the model provides same output. 
+                                        </p>
+                                        </div>
+                                </div>
+                                </div>
+        
+                                
+
+                                <a href="https://public.tableau.com/views/CitiBikeAnalysis2020inJerseyCity/GeneralDemographicDashboard?:language=ko-KR&:display_count=n&:origin=viz_share_link"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>2</h5>
+                                <a href="#"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>School Project</h5>
+                                <h7>Female Participation in Leadership</h7><br></br>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-4.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Work Project</h5>
+                                <h7>Seegene Medical</h7><br></br>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-5.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Work Project</h5>
+                                <h7>Kakaopay</h7><br></br>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-6.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Work Project</h5>
+                                <h7>National Gallery Singapore</h7><br></br>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
                         <img src="assets/imgs/folio-1.jpg" alt="">
@@ -371,10 +471,10 @@
                         </div>
                     </div>                  
                 </div>
-            </div>
+                            
 
         </div>
-    </section>
+    </section><hr>
     <!-- End of portfolio section -->
 
     <!-- Testmonial Section -->
@@ -486,7 +586,7 @@
     </section>
 
     <!-- Hire me section -->
-    <section class="bg-gray p-0 section">
+    <!-- <section class="bg-gray p-0 section">
         <div class="container">
             <div class="card bg-primary">
                 <div class="card-body text-light">
@@ -502,11 +602,11 @@
                 </div> 
             </div>
         </div>
-    </section>      
+    </section>       -->
     <!-- End od Hire me section. -->
 
     <!-- Contact Section -->
-    <section id="contact" class="position-relative section">
+    <!-- <section id="contact" class="position-relative section">
         <div class="container text-center">
             <h6 class="subtitle">Contact</h6>
             <h6 class="section-title mb-4">Get In Touch With Me</h6>
@@ -557,7 +657,7 @@
         <div id="map">
             <iframe src="https://snazzymaps.com/embed/61257"></iframe>
         </div>      
-    </section>
+    </section> -->
     <!-- End of Contact Section -->
 
     <!-- Page Footer -->

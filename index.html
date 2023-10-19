@@ -11,7 +11,7 @@
     <!-- Bootstrap + Steller main styles -->
 	<link rel="stylesheet" href="assets/css/steller.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -41,15 +41,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#testmonial">Testmonial</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="- btn btn-primary rounded ml-4" href="components.html">Components</a>
                     </li>
@@ -68,8 +68,8 @@
                 <p>A Dedicated Bilingual Data Analyst</p>
 
                 <div class="buttons pt-3">
-                    <a href="assets/pdf/Mihee Park.pdf" download="Mihee Park Resume"><button class="btn btn-primary rounded">DOWNLOAD RESUME</button></a>
-                    <a href="assets/pdf/박미희.pdf" download="박미희 이력서"><button class="btn btn-dark rounded">이력서 다운로드</button></a>
+                    <a href="assets/pdf/Mihee_Park_2.pdf" download="Mihee Park Resume"><button class="btn btn-primary rounded">DOWNLOAD RESUME</button></a>
+                    <a href="assets/pdf/박미희_이력서_2.pdf" download="박미희 이력서"><button class="btn btn-dark rounded">이력서 다운로드</button></a>
                 </div>      
 
                 <div class="socials mt-4">
@@ -135,7 +135,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
-                        <a href="#" class="open-pop" onclick="openPop(event, 'popup_layer1')"><div class="card-body">
+                        <a href = "#" class="open-pop" onclick="openPop(event, 'popup_layer1_1')"><div class="card-body">
                             <i class="icon ti-zoom-in"></i>
                             <h5>Data Management</h5>
                         </div></a>
@@ -143,7 +143,7 @@
                         <div class="popup_layer" id="popup_layer1" style="display: none;">
                             <div class="popup_box">
                                 <div style="height: 10px; width: 375px; float: top;">
-                                <a href="#" class="close-pop" onclick="closePop(event, 'popup_layer1')"><img src="assets/imgs/close.svg" class="m_header-banner-close"></a>
+                                <a href = "#" class="close-pop" onclick="closePop(event, 'popup_layer1_1')"><img src="assets/imgs/close.svg" class="m_header-banner-close"></a>
                                 </div>
                             
                             <div class="popup_cont">
@@ -295,7 +295,7 @@
         <div class="container text-center">
             <h6 class="subtitle">Portfolio</h6>
             <h6 class="section-title mb-4">Check My Wonderful Works</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+            <p class="mb-5 pb-4">These are the school, work, and personal projects that I have participated in. </p>
 
             <div class="row">
                 <div class="col-sm-4">
@@ -303,21 +303,30 @@
                         <img src="assets/imgs/folio-1.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>School Project</h5>
-                                <h7>Happiness Analysis</h7><br></br>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <h5>Tableau Project</h5>
+                                <a href="assets/pdf/Presentation1.pdf" target = "_blank">
+                                    <i class="ti-zoom-in" alt ="PDF icon" onclick="openPDF()"></i>
+                                </a>
+                                <a href="https://public.tableau.com/views/CitiBikeAnalysis2020inJerseyCity/GeneralDemographicDashboard?:language=ko-KR&:display_count=n&:origin=viz_share_link" target = "_blank">
+                                    <i class="ti-link"></i>
+                                </a>
                             </div>  
                         </div>
                     </div>
+                <!-- </div> -->
+
                     <div class="img-wrapper">
                         <img src="assets/imgs/folio-2.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>School Project</h5>
-                                <h7>Gas Price Analysis</h7><br></br>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <h5>Work Project</h5>
+                                    <h7>Seegene Medical</h7><br>
+                                <!-- <a href="#">
+                                    <i class="ti-zoom-in"></i>
+                                </a> -->
+                                <a href="assets/pdf/SG_Portfolio.pdf" target = "_blank">
+                                    <i class="ti-link" alt ="PDF icon" onclick="openPDF()"></i>
+                                </a>
                             </div>                              
                         </div>
                     </div>                  
@@ -327,10 +336,12 @@
                         <img src="assets/imgs/folio-3.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>School Project</h5>
-                                <h7>Female Participation in Leadership</h7><br></br>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <h5>Work Project</h5>
+                                    <h7>Kakaopay</h7><br>
+                                <br></br>
+                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                                <a href="assets/pdf/KP_Portfolio3.pdf" target = "_blank">
+                                    <i class="ti-link" alt ="PDF icon" onclick="openPDF()"></i></a>
                             </div>  
                         </div>
                     </div>
@@ -339,9 +350,10 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Work Project</h5>
-                                <h7>Seegene Medical</h7><br></br>
+                                    <h7>National Gallery Singapore</h7><br></br>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="assets/pdf/NGS_Portfolio.pdf" taget = "_blank">
+                                    <i class="ti-link" alt ="PDF icon" onclick="openPDF()"></i></a>
                             </div>                              
                         </div>
                     </div>                  
@@ -351,9 +363,9 @@
                         <img src="assets/imgs/folio-5.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>Work Project</h5>
-                                <h7>Kakaopay</h7><br></br>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <h5>Personal Project</h5>
+                                    <h7>working on</h7><br></br>
+                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
                             </div>  
                         </div>
@@ -362,18 +374,18 @@
                         <img src="assets/imgs/folio-6.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>Work Project</h5>
-                                <h7>National Gallery Singapore</h7><br></br>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <h5>Personal Project</h5>
+                                <h7>working on </h7><br></br>
+                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
                     </div>                  
                 </div>
-              
+                            
 
         </div>
-    </section>
+    </section><hr>
     <!-- End of portfolio section -->
 
     <!-- Testmonial Section -->
@@ -432,21 +444,21 @@
         <div class="container text-center">
             <h6 class="subtitle">My Blogs</h6>
             <h6 class="section-title mb-4">Latest News</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+            <p class="mb-5 pb-4"> I keep pushing myself to improve the coding skills and leave the records the progress in blogs. </p>
 
             <div class="row text-left">
                 <div class="col-md-4">
                     <div class="card border mb-4">
                         <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
                         <div class="card-body">
-                            <h5 class="card-title">Designe for Everyone</h5>
+                            <h5 class="card-title">Data Science</h5>
                             <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <!-- <a href="javascript:void(0)">Posted By: Admin</a>
                                 <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a> -->
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
+                            <p> Numpy is one of the fundamental library dealing with the linear algebra. I researched and wrote a summary of the differences in numpy modules. </p>
+                            <a href="https://blog.naver.com/beauty_of_language/223239916334" target = "_blank">Read More..</a>
                         </div>
                     </div>
                 </div>
@@ -454,14 +466,14 @@
                     <div class="card border mb-4">
                         <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
                         <div class="card-body">
-                            <h5 class="card-title">Web Layouts</h5>
+                            <h5 class="card-title">Python</h5>
                             <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <!-- <a href="javascript:void(0)">Posted By: Admin</a>
                                 <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a> -->
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
+                            <p> I have followed one of the udemy course about python in order not to be rusty in coding. I've created a simple hangman game and encrypted codes using python. </p>
+                            <a href="https://github.com/miheep8938/python_100days_udemy/tree/main" target = "_blank">Read More..</a>
                         </div>
                     </div>
                 </div>
@@ -469,14 +481,14 @@
                     <div class="card border mb-4">
                         <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
                         <div class="card-body">
-                            <h5 class="card-title">Bootstrap Framework</h5>
+                            <h5 class="card-title">HTML & CSS</h5>
                             <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <!-- <a href="javascript:void(0)">Posted By: Admin</a>
                                 <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a> -->
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
+                            <p> While working on my portfolio, I had encountered several issues regarding to javascript and layouts. In the posting, I shared how chatGPT had helped me solve the issue.</p>
+                            <a href="https://blog.naver.com/beauty_of_language/223230066628" target = "_blank">Read More..</a>
                         </div>
                     </div>
                 </div>
@@ -485,7 +497,7 @@
     </section>
 
     <!-- Hire me section -->
-    <section class="bg-gray p-0 section">
+    <!-- <section class="bg-gray p-0 section">
         <div class="container">
             <div class="card bg-primary">
                 <div class="card-body text-light">
@@ -501,11 +513,11 @@
                 </div> 
             </div>
         </div>
-    </section>      
+    </section>       -->
     <!-- End od Hire me section. -->
 
     <!-- Contact Section -->
-    <section id="contact" class="position-relative section">
+    <!-- <section id="contact" class="position-relative section">
         <div class="container text-center">
             <h6 class="subtitle">Contact</h6>
             <h6 class="section-title mb-4">Get In Touch With Me</h6>
@@ -556,7 +568,7 @@
         <div id="map">
             <iframe src="https://snazzymaps.com/embed/61257"></iframe>
         </div>      
-    </section>
+    </section> -->
     <!-- End of Contact Section -->
 
     <!-- Page Footer -->
@@ -564,14 +576,14 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">Mihee Park</a></p>
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                        <!-- <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a> -->
                         <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-linkedin"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-list"></i></a>
                     </div>
                 </div>
             </div>
